@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<contents>
+	<!-- 미역 -->
+		<page type="video" time="31000">
+			<contentsSrc><![CDATA[assets/video/seaweed.mp4]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/seaweed1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/seaweed2.png]]></contentsSrc>
+		</page>
+	<!-- //미역 -->
+	<!-- 녹차 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/greentea0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/greentea1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/greentea2.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/greentea3.png]]></contentsSrc>
+		</page>
+	<!-- //녹차 -->
+	<!-- 백년초 -->
+		<page type="video" time="31000">
+			<contentsSrc><![CDATA[assets/video/cactus.mp4]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/cactus1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/cactus2.png]]></contentsSrc>
+		</page>
+	<!-- //백년초 -->
+	<!-- 비자 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/bija0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/bija1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/bija2.png]]></contentsSrc>
+		</page>
+	<!-- //비자 -->
+	<!-- 올리브 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/olive0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/olive1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/olive2.png]]></contentsSrc>
+		</page>
+	<!-- //올리브 -->
+	<!-- 와인 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/wine0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/wine1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/wine2.png]]></contentsSrc>
+		</page>
+	<!-- //와인 -->
+	<!-- 천연베리 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/berry0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/berry1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/berry2.png]]></contentsSrc>
+		</page>
+	<!-- //천연베리 -->
+	<!-- 화산송이 -->
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/volcano0.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/volcano1.png]]></contentsSrc>
+		</page>
+		<page type="image" time="2000">
+			<contentsSrc><![CDATA[assets/images/page/volcano2.png]]></contentsSrc>
+		</page>
+	<!-- //화산송이 -->
+	</contents>
+</root>
