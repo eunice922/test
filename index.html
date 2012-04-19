@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--  <html manifest="cache_manifest.php"> -->
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+
+<!-- <meta name="apple-mobile-web-app-capable" content="yes" />  -->
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>Book</title>
+<script type="text/javascript" src="assets/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="_Library/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="book.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/book.css" />
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
+<!-- <link rel="apple-touch-startup-image" media="screen and (orientation: landscape)" href="assets/images/startup.png" /> -->
+<link rel="apple-touch-startup-image" href="assets/images/startup.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+<script type="text/ecmascript">
+	$(function() {
+		setTimeout(loaded, 100);
+	})
+	function loaded() {
+		window.scrollTo(0,1);	
+	}
+	$(document).ready( function() {
+
+		init();
+		//clearLocalStorage();
+		
+	});
+	function init() {
+		$.ajax({
+			url: "assets/data/book.xml",
+			success: onSuccess,
+			error: onError
+		});
+		
+		//window.applicationCache.swapCache(); 
+		if (!!window.applicationCache) { // 지원함 
+			console.log("abalable");
+			window.applicationCache.addEventListener('updateready', function() {
+				//window.applicationCache.swapCache();
+			}, false);
+		} else { }
+		
+		
+		function logEvent(event) {
+		    console.log(event.type, "logEvent");
+		}
+		 
+		window.applicationCache.addEventListener('checking',logEvent,false);
+		window.applicationCache.addEventListener('noupdate',logEvent,false);
+		window.applicationCache.addEventListener('downloading',logEvent,false);
+		window.applicationCache.addEventListener('cached',logEvent,false);
+		window.applicationCache.addEventListener('updateready',logEvent,false);
+		window.applicationCache.addEventListener('obsolete',logEvent,false);
+		window.applicationCache.addEventListener('error',logEvent,false);
+		
+	}
+	
+	function clearLocalStorage() {
+		var keyNames = [];
+		var values = [];
+		var numKeys = localStorage.length;
+		var i;
+		for(i=0;i<numKeys;i++) {
+		    keyNames[i]=window.localStorage.key(i);
+		    localStorage.removeItem(keyNames[i]);
+		}
+	}
+</script>
+</head>
+<body>	
+</body>
+</html>
