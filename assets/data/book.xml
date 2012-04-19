@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<contents>
-	<!-- ¹Ì¿ª -->
+	<!-- ë¯¸ì—­ -->
 		<page type="video" time="31000">
-			<contentsSrc><![CDATA[assets/video/seaweed.mp4]]></contentsSrc>
+			<contentsSrc><![CDATA[assets/video/SeaMustard.mp4]]></contentsSrc>
 		</page>
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/seaweed1.jpg]]></contentsSrc>
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/Seamustard_sub.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/seaweed2.jpg]]></contentsSrc>
 		</page>
-	<!-- //¹Ì¿ª -->
-	<!-- ³ìÂ÷ -->
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/greentea0.jpg]]></contentsSrc>
+	<!-- //ë¯¸ì—­ -->
+	<!-- ë…¹ì°¨ -->
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/green_tea.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/greentea1.jpg]]></contentsSrc>
@@ -25,10 +25,10 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/greentea3.jpg]]></contentsSrc>
 		</page>
-	<!-- //³ìÂ÷ -->
-	<!-- ¹é³âÃÊ -->
+	<!-- //ë…¹ì°¨ -->
+	<!-- ë°±ë…„ì´ˆ -->
 		<page type="video" time="31000">
-			<contentsSrc><![CDATA[assets/video/cactus.mp4]]></contentsSrc>
+			<contentsSrc><![CDATA[assets/video/Cactus_title.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/cactus1.jpg]]></contentsSrc>
@@ -36,10 +36,10 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/cactus2.jpg]]></contentsSrc>
 		</page>
-	<!-- //¹é³âÃÊ -->
-	<!-- ºñÀÚ -->
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/bija0.jpg]]></contentsSrc>
+	<!-- //ë°±ë…„ì´ˆ -->
+	<!-- ë¹„ìž -->
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/bija.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/bija1.jpg]]></contentsSrc>
@@ -47,10 +47,10 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/bija2.jpg]]></contentsSrc>
 		</page>
-	<!-- //ºñÀÚ -->
-	<!-- ¿Ã¸®ºê -->
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/olive0.jpg]]></contentsSrc>
+	<!-- //ë¹„ìž -->
+	<!-- ì˜¬ë¦¬ë¸Œ -->
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/olive.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/olive1.jpg]]></contentsSrc>
@@ -58,10 +58,10 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/olive2.jpg]]></contentsSrc>
 		</page>
-	<!-- //¿Ã¸®ºê -->
-	<!-- ¿ÍÀÎ -->
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/wine0.jpg]]></contentsSrc>
+	<!-- //ì˜¬ë¦¬ë¸Œ -->
+	<!-- ì™€ì¸ -->
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/wine.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/wine1.jpg]]></contentsSrc>
@@ -69,10 +69,10 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/wine2.jpg]]></contentsSrc>
 		</page>
-	<!-- //¿ÍÀÎ -->
-	<!-- Ãµ¿¬º£¸® -->
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/berry0.jpg]]></contentsSrc>
+	<!-- //ì™€ì¸ -->
+	<!-- ì²œì—°ë² ë¦¬ -->
+		<page type="video" time="2000">
+			<contentsSrc><![CDATA[assets/video/berry.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/berry1.jpg]]></contentsSrc>
@@ -80,17 +80,17 @@
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/berry2.jpg]]></contentsSrc>
 		</page>
-	<!-- //Ãµ¿¬º£¸® -->
-	<!-- È­»ê¼ÛÀÌ -->
+	<!-- //ì²œì—°ë² ë¦¬ -->
+	<!-- í™”ì‚°ì†¡ì´ -->
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/volcano0.jpg]]></contentsSrc>
 		</page>
-		<page type="image" time="2000">
-			<contentsSrc><![CDATA[assets/images/page/volcano1.jpg]]></contentsSrc>
+		<page type="video" time="20000">
+			<contentsSrc><![CDATA[assets/video/volacanic.mp4]]></contentsSrc>
 		</page>
 		<page type="image" time="2000">
 			<contentsSrc><![CDATA[assets/images/page/volcano2.jpg]]></contentsSrc>
 		</page>
-	<!-- //È­»ê¼ÛÀÌ -->
+	<!-- //í™”ì‚°ì†¡ì´ -->
 	</contents>
 </root>
